@@ -23,11 +23,20 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* * {
+	padding:0;
+	margin:0;
+	max-width:100%;
+	border: 2px solid black;
+} */
 body {
 	line-height: 1;
 }
@@ -64,3 +73,59 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.header h1 {
+	font-size: 100px;
+	text-align: center;
+	position: absolute;
+	left: 28%;
+	top: 30%;
+}
+
+
+
+a {
+	line-height: 1em;
+	display: inline;
+	text-align: center;
+    text-decoration: none;
+	margin: 42px;
+	/* position: relative;
+	top: 10%; */
+}
+
+.links {
+	display: inline-block;
+	padding: 0;
+}
+
+.logo {
+	position: absolute;
+	left: 59.3%;
+	
+}
+
+.navigation {
+	margin: 10px;
+	padding: 20px;
+	justify-content: space-around;
+}
+
+.snippet-img {
+	position: absolute;
+	top: 18%;
+	left: 49%;
+}
+
+.button {
+	padding: 15px 32px;
+	background: #0062b8;
+}
+
+.middle-img {
+	padding: 50px;
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	
+}
