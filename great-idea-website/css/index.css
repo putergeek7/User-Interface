@@ -158,15 +158,17 @@ a {
 
 .snippet-img {
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	left: 49%;
 }
 
 .button {
 	padding: 15px 32px;
-	background: #0062b8;
+	background-color: transparent;
+	border: 2px solid lightslategray;
 	position: absolute;
-	left: 40%;
+	left: 30%;
+	top: 63%;
 }
 
 .middle-img {
